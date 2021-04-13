@@ -63,3 +63,6 @@
     box-sizing: content-box;
     resize: none;
   }
+  .textarea {
+    margin-top: 0.625rem;
+  }
