@@ -1,3 +1,43 @@
-body {
-    background-image: url('netflix-background-image.jpg');
-}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-size: 16px;
+  }
+  body {
+    background-image: url("netflix-background-image.jpg");
+    color: white;
+  }
+  #container {
+    margin: 1.875rem 6.25rem;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  #title {
+    font-family: "Bowlby One SC", cursive;
+    font-size: 3.12rem;
+    padding-top: 0.9375rem;
+    letter-spacing: 0.3125rem;
+    text-align: center;
+  }
+  span {
+    color: #ff0000;
+  }
+  #description {
+    font-family: "Sorts Mill Goudy", serif;
+    margin-bottom: 0.9375rem;
+    font-size: 1.4375rem;
+    text-align: center;
+  }
+  
+  .survey-form {
+    width: 31.25rem;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 0.625rem;
+    margin: auto;
+  }
+  .survey-form__input-box {
+    margin-top: 1.25rem;
+    margin-left: 2.5rem;
+  }
